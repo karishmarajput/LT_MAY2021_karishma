@@ -1,0 +1,105 @@
+:root {
+    --text-color: white;
+    --bg-color: #191919;
+    --main-div-color: white;
+    --border: #2E9279
+}
+*{
+    color: var(--text-color);
+    font-family:cursive;
+    background-color: var(--bg-color);
+}
+body,html{
+    width: 100vw;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.intro-para{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
+    margin: 1rem;
+}
+.image-div{
+    width: 100vw;
+}
+.image-div2{
+    margin: 1rem;
+}
+.Team{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.flip-box {
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    perspective: 1000px;
+  }
+  
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-box-back {
+    background-color: #555;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .social-links{
+    display: flex;
+    justify-content: center;
+
+  }
+  .social{
+    margin: 1rem;
+  }
+  .facebook1{
+    fill: black;
+  }
+  .facebook1:hover{
+    fill: #1876F2;
+  }
+  .instagram1{
+    fill: black;
+  }
+  .instagram1:hover{
+    fill:#bc1888
+  }
+  .twitter1{
+    fill: black;
+  }
+  .twitter1:hover{
+    fill:#1993E9
+  }

@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Our Services</h1>
+        </div>
+        <div class="main">
+            <div class="cards">
+                <div class="card">
+                    <div class="card_img">
+                        <img src="./asserts/documenttation.webp" width="200" height="200">
+                    </div>
+                    <div class="card_details">
+                        <h2>Documentation</h2>
+                        details to be present here.
+                        <button class="card_details_btn">MORE</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="./asserts/accounting.jpg" width="200" height="200">
+                    </div>
+                    <div class="card_details">
+                        <h2>Accounting</h2>
+                        details to be present here.
+                        <button class="card_details_btn">MORE</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="./asserts/consulting.png" width="200" height="200">
+                    </div>
+                    <div class="card_details">
+                        <h2>Consulting</h2>
+                        details to be present here.
+                        <button class="card_details_btn">MORE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="see-more" id="see-more">
+                <button onclick="seeMore()" class="card_details_btn see_more_btn">
+                    See More
+                </button>
+            </div>
+            <div class="cards viewMoreCards" id="viewMoreCards">
+                <div class="card">
+                    <div class="card_img">
+                        <img src="./asserts/finance.webp" width="200" height="200">
+                    </div>
+                    <div class="card_details">
+                        <h2>Finance</h2>
+                        details to be present here.
+                        <button class="card_details_btn">MORE</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="./asserts/power.jpg" width="200" height="200">
+                    </div>
+                    <div class="card_details">
+                        <h2>Power</h2>
+                        details to be present here.
+                        <button class="card_details_btn">MORE</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_img">
+                        <img src="./asserts/presentation.jpg" width="200" height="200">
+                    </div>
+                    <div class="card_details">
+                        <h2>Presentation</h2>
+                        details to be present here.
+                        <button class="card_details_btn">MORE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="see-more" id="see-less">
+                <button onclick="seeLess()" class="card_details_btn see_more_btn">
+                    See Less
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src='./script.js'></script>
+</body>
+</html>
